@@ -1,0 +1,14 @@
+{
+  "name" : "System Info",
+  "description" : "Display System Information",
+  "version" : "1.0",
+  "app" : {
+    "background" : {
+      "scripts" : ["background.js"]
+    }
+  },
+  "icons" : { "16": "calculator-16.png", "128": "calculator-128.png"},
+  "permissions" : [
+      "system.memory"
+    ]
+}
